@@ -1,8 +1,15 @@
 Total ratio R/K calculation
 
 Calculates the net charge of stretches of 30 amino acids, counts the total number of arginines (R) and lysines (K) 
-and calculates the ratio R/K. The input is a uniprot.fasta archive and the output contains the net charge and its 
-respective values of R, K found and R/K calculated. Example:
+and calculates the ratio R/K. 
+
+Usage:
+total_ratio.py <example.fasta> <output_example>
+input (required): Input complete file name as for example "example.fasta"
+output (required): Output file name, it generates "output_example.txt"
+
+The input is a uniprot.fasta archive obtained from https://www.uniprot.org/uniprot/
+and the output contains the net charge and its respective values of R, K found and R/K calculated. Example:
 
 Charge: 0	R: 2173	K: 2113	R/K: 1.028395646
 Charge: 1	R: 1563	K: 1656	R/K: 0.94384057971
